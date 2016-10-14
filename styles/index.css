@@ -1,0 +1,153 @@
+/* main */
+
+html{
+	background-color: black;
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* END - main */
+
+
+/*Header Section*/
+
+header{
+	font-family: cursive;
+	color: white;
+	background: rgba(0,0,0,0.2);
+}
+
+#logo{
+	font-size:  40px;
+	display: inline;
+}
+
+#timeDisplay{
+	font-size: 20px;
+	float: right;
+}
+
+
+/*END - Header Section*/
+
+/*Body*/
+
+	/*Link list*/
+
+		.links-container{
+			width: 100%;
+			overflow: hidden;
+			position: relative
+		}
+		
+		.scroll-btn{
+			width: 50px;
+			height: 160px;
+			position: absolute;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+		
+		#sb-left{
+			float: left;
+		}
+		
+		#sb-right{
+			right: 0;
+			top: 0;
+		}
+		
+		.scroll-btn:hover{
+			background: rgba(255,255,255,0.4);
+		}
+		
+		#links-list{
+			width: 100%;
+		}
+
+	/*END - Link list*/
+
+	/*Link*/
+	#links-list{
+		padding: 20px;
+		display: inline-flex;
+	}
+
+	.link-item{
+		display: block;
+		margin:10px;
+		position: relative;
+	}
+
+	.link{
+		text-decoration: none;
+		font-family: cursive;
+		color: white;
+	}
+
+	.link-div{
+		height: 100px;
+		width: 100px;
+		background-color: blue;
+		border-radius: 5%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.link-text{
+		position: absolute;
+		bottom: 2px;
+		right: 2px;
+		background: rgba(0,0,0,0.1);
+		border-radius: 3%;
+		color: rgba(255,255,255,0.4);
+	}
+	
+	.link-text:hover{
+		background: rgba(0,0,0,0.2);
+		color: rgba(255,255,255,1);
+	}
+	/*END - Link*/
+	
+	/* task container */
+	#task-container{
+		width: 100%;
+		height: 300px;
+	}
+	
+	#notes{
+		width: 50%;
+	}
+	
+	#todo-input{
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.4);
+		color: white;
+		font-family: cursive;
+		border: 5px solid grey;
+		border-radius: 3%;
+		resize: none;
+	}
+	/* END - task-container */
+	
+
+/*END - Body*/
+
+/* footer */
+
+#footer{
+	background: rgba(0,0,0,0.4);
+	color: white;
+	font-family: cursive;
+}
+
+#footer-links{
+	text-align: center;
+}
+
+#settings-link,#about-link,#help-link{
+	color: white;
+}
+
+/* END - footer */

@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>My Home</title>
+		<link rel="stylesheet" type="text/css" href="styles/index.css"></link>
+		<script src="scripts/index.js"></script>
+		<script src="scripts/bgimage.js"></script>
+		<script src="scripts/logos.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="logo">Home</div>
+			<span id="timeDisplay"></span>
+			<hr/>
+		</header>		
+		
+		<!-- links container section -->
+		<div class="links-container">
+			<div class="scroll-btn" id="sb-left"></div>
+			<ul id="links-list">
+				<!-- links will be added from JavaScript -->
+				<!-- Example:	<li>
+									<a class="link" href="http://www.facebook.com">
+										<div class="link-div"><span class="link-text">Facebook</span><div>
+									</a>
+								</li> -->
+			</ul>
+			<div class="scroll-btn" id="sb-right"></div>
+		</div>
+		<hr/>
+		<!-- notes or TODO section -->
+		<div id="task-container">
+			<div id="notes"><textarea type="text" id="todo-input"></textarea></div>
+			<div></div>
+		</div>
+		
+		<hr/>				
+		<footer id="footer">
+			<p id="footer-links"><a href="settings.html" id="settings-link">Settings</a> | <a href="#" id="about-link">About</a> | <a href="#" id="help-link">Help</a></p>
+		</footer>
+	</body>
+</html>

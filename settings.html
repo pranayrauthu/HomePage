@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>My Home - Settings</title>
+		<script src="scripts/index.js"></script>
+        <script src="scripts/settings.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1 id="settingsHead">Settings</h1>
+		</header>
+		<hr/>
+		<!--For New bookmark-->
+        <form id="addNewUrl" onsubmit="addNewUrl()">
+            <label for="name">Name:</label>
+            <input type="text" name="name"/>
+            <label for="url">URL:</label>
+            <input type="text" name="url"/>
+			<select name="bgColor">
+				<option>Select Color</option>
+				<option value="blue">Blue</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+				<option value="yellow">Yellow</option>
+				<option value="orange">Orange</option>
+			</select>
+            <input type="submit" value="Add"/>
+        </form>
+		<!--For Deleting or Editing Existing-->
+		<hr>
+		<ul id="all_links">
+
+		</ul>
+        
+		<footer>
+			<p>Go back to <a href="index.html">Home</a></p>
+		</footer>
+	</body>
+</html>
